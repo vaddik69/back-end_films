@@ -12,6 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $params = ['title', 'year', 'describe', 'rating', 'director', 'actors', 'producer', 'genre'];
     $params1 = ['Название: ', 'Год выпуска: ', 'Описание: ', 'Рейтинг: ', 'Режиссер: ', 'В главных ролях: ', 'Продюсер: ', 'Жанр: '];
 
+    
     if (empty($login) || empty($pass)) {
         echo "Пожалуйста, заполните все поля";
     } else {

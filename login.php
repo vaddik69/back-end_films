@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <button type="submit" class="btn btn-secondary" name="button-reg">Вход</button>
         </div>
     </form>
-    
+
 </div>
 </body>
 </html>
