@@ -10,7 +10,7 @@ require_once 'connect.php';
     <title>My site</title>
     <style>
         div {
-            background: ; /* Цвет фона */
+            background: #E6E6FA; /* Цвет фона */
             border: 1px solid black; /* Параметры рамки */
             padding: 10px; /* Поля вокруг текста */
             margin-top: 20%; /* Отступ сверху */
